@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #008cba;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .navbar {
+    background-color: #005f75;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: #fdffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fdffff;
+  }
+  
+  .intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro-content img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .safety-tips {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .safety-tips h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .tips-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tip {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .tip img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .tip h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
